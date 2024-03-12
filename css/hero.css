@@ -75,3 +75,28 @@
     height: 38px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero-wrapper {
+    padding: 381px 40px 40px;
+    background-image: url(../img/hero/hero-desktop.webp);
+    border-radius: 30px;
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 320px) {
+  .hero-wrapper {
+    background-image: url(../img/hero/hero-mobile@2x.webp);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+  .hero-wrapper {
+    background-image: url(../img/hero/hero-tablet@2x.webp);
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1200px) {
+  .hero-wrapper {
+    background-image: url(../img/hero/hero-desktop@2x.webp);
+  }
+}
