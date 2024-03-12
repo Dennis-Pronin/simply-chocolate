@@ -1,0 +1,43 @@
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -3%;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 auto 32px;
+  max-width: 282px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .section {
+    padding: 50px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 32px;
+  }
+  .section {
+    padding: 60px 0;
+  }
+}
