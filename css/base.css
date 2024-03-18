@@ -16,11 +16,12 @@ body {
 
 .title {
   font-size: 20px;
-  letter-spacing: -3%;
+  letter-spacing: -0.03em;
   font-weight: 600;
   text-transform: uppercase;
   margin: 0 auto 32px;
   max-width: 282px;
+  text-align: center;
 }
 .visually-hidden {
   position: absolute;
@@ -34,6 +35,9 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.text-accent {
+  color: var(--main-color);
 }
 
 @media screen and (min-width: 768px) {
