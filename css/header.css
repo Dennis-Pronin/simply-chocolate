@@ -1,0 +1,111 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 24px;
+}
+
+.logo {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: 0.03em;
+}
+
+.logo-italy {
+  font-style: italic;
+  margin-right: 0.2em;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger-line {
+  width: 28px;
+  height: 2px;
+  background-color: #000;
+}
+.header-socials {
+  display: none;
+}
+
+.header-nav,
+.header-socials {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .logo-italy {
+    margin-right: 0.3em;
+  }
+  .header-nav,
+  .header-socials {
+    display: block;
+  }
+
+  .hamburger {
+    display: none;
+  }
+  .logo {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  .logo-icon {
+    width: 21px;
+    height: 21px;
+  }
+  .header-list {
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+  }
+
+  .header-socials {
+    display: flex;
+    gap: 12px;
+  }
+
+  .header-social > svg {
+    stroke: #000;
+    fill: transparent;
+    width: 20px;
+    height: 20px;
+  }
+
+  .header-wrapper {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-italy {
+    margin-right: 0.5em;
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .logo-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .header-wrapper {
+    gap: 90px;
+  }
+
+  .header-social > svg {
+    width: 24px;
+    height: 24px;
+  }
+}
